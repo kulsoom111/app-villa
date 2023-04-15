@@ -1,0 +1,103 @@
+
+.header{
+  background-color: #ff6b81;
+  padding: 3% 0;
+}
+.logo{
+  width: 150px;
+}
+h5{
+  color:#ff6b81;
+}
+h2{
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+.intro{
+  padding-bottom: 5.7%;
+  padding-top: 5.7%;
+}
+/* features */
+#features,.bolg-div,.pricing{
+  background-color: #f9f9f9;
+  padding: 6% 0;
+}
+
+ .customers{
+  padding: 6% 0;
+} 
+.features-icon{
+  background-color: #ff6b81;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+.features-content{
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+/* users */
+.users{
+  background-color: #ff6b81;
+  color: #ffffff;
+  padding: 6% 0;
+}
+.text{
+  font-size: 40px;
+  font-weight: 700;
+}
+.boxes{
+  width: 60%;
+  margin: 0 20%;
+}
+
+
+/* team */
+.team-div{
+  /* width: 80%; */
+}
+.team-div,.slider-div,.faq-div,.icons-div{
+  margin: 6% auto;
+}
+.icons-div{
+  width: 90% ;
+  margin: 0 5%!important;
+}
+.footer-div{
+  width: 90%;
+  margin: 0 5%!important;
+}
+.download-div{
+  background-color: #ff6b81;
+  padding:6%!important;
+}
+input [type="submit"]{
+  background-color: #ff6b81;
+}
+
+
+.card{
+  border: none;
+
+}
+@media (max-width:767px){
+  .phone-img{
+    display: none;
+  }
+  .header{
+    text-align: center;
+    
+  }
+  .features-text{
+    width: 100%;
+  }
+  .customers-row{
+    text-align: center;
+  }
+  .footer{
+    text-align: center;
+  }
+}
